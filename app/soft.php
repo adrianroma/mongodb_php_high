@@ -80,9 +80,7 @@ class app_soft {
 
 # get the mongo db name out of the env
 // $mongo_url = parse_url(getenv("MONGO_URL"));
-//$dbname = str_replace("/", "", $mongo_url["path"]);
-            
-            //mongodb://<dbuser>:<dbpassword>@ds045644.mlab.com:45644/heroku_1vt0mn2v
+
 
             $host = $this->node['host'];
             $database = $this->node['database'];
