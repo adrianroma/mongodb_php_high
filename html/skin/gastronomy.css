@@ -1,0 +1,252 @@
+
+@font-face {
+    font-family: "lobster";
+    src: url("/HTML/font/lobster/lobster.woff") format('woff');
+}
+
+@font-face {
+    font-family: "bree";
+    src: url("/HTML/font/bree/bree.woff") format('woff');
+}
+
+@font-face {
+    font-family: "courgette";
+    src: url("/HTML/font/courgette/courgette.woff2") format('woff2');
+}
+
+@font-face {
+    font-family: "pacific";
+    src: url("/HTML/font/pacific/pacific.woff2") format('woff2');
+}
+
+.title{
+    
+    font-size:40px;
+}
+
+@media (max-width:800px){
+    
+
+    .message{
+        font-size: 10px;
+    }
+    
+}
+
+@media (max-width:500px){
+    
+
+    
+    .message{
+        font-size: 10px;
+    }
+    
+
+    
+}
+
+p{ 
+   
+   
+}
+
+
+
+html{
+
+    background-color:white;
+    color:#F46562;
+    font-family: "bree";
+}
+
+
+.logo{
+    height:36px;
+    margin-bottom:-5px;
+    margin-right: 5px;
+     opacity: 0.7;
+    filter: alpha(opacity=70);
+}
+
+input{
+    color:#402626;
+    font-family: "bree";
+    font-weight: bold;
+    border:0px solid white;
+    border-radius:0px;
+    -webkit-border-radius:0px;
+    
+}
+
+input[type="button"]{
+    color:white;
+    background-color:#F46562;
+    font-family: "bree";
+     font-weight: bold;
+     border:0px solid white;
+     border-radius: 0px;
+     -webkit-border-radius:0px;
+}
+
+input[type="text"], textarea {
+    color:#402626;
+    font-family: "bree";
+    font-weight: bold;
+    border:0px solid white;
+    background-color:white;
+    border-radius:0px;
+    -webkit-border-radius:0px;
+
+}
+
+button{
+    color:white;
+    background-color:#F46562;
+    border-radius: 0px;
+    -webkit-border-radius:0px;
+}
+
+
+
+.header{
+ 
+     float:right;
+     width:50%;
+     margin-top:10px;
+     margin-bottom: 50px;
+     border-radius: 0px;
+     -webkit-border-radius:0px;
+}
+
+.trade{
+   color: #FF6666; 
+   font-family: lobster;
+   font-size:40px;
+}
+
+.description_trade{
+   color: gray; 
+   font-family: lobster;
+   font-size:40px;
+}
+
+.content{
+    float:left;
+    width:100%;
+    
+}
+
+
+
+
+.wall_center{
+    float:left;width:100%;
+   
+    float:left;
+    width:100%;
+    height:800px;
+    background-image: url("/HTML/image/food.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    background-attachment: fixed; 
+
+
+}
+
+
+.wall_center_simple{
+    float:left;width:100%;
+    width:100%;
+    height:150px;
+
+}
+
+
+
+
+.brickLeft{float:left;width:10%;visibility:hidden;}
+.brickCenter {
+              float:left;
+              width:80%;
+              -webkit-border-radius:0px;
+              border-radius: 0px;
+             }
+.brickRight{float:left;width:10%;visibility:hidden;}
+
+.searchTitle p{font-family: "lobster";font-size:20px;margin:0px;cursor:default;}
+.searchValue {font-size:15px;}
+
+
+
+.searchInput{
+             padding:12px;
+             margin-top:40px;
+             background-color:white;
+             float:left;width:33%;
+             -webkit-border-radius:0px;
+              border-radius: 0px;
+             border:1px solid  #F46562;
+             opacity: 0.9;
+             filter: alpha(opacity=90);
+            }
+            
+            
+.wall_register{
+              float:right;
+              width:30%;
+              border:5px solid #F46562;
+              background-color:white;
+              opacity: 0.9;
+              filter: alpha(opacity=90);
+              padding:20px;
+              margin-top:10%;
+              margin-right:10%;
+              -webkit-border-radius:5px;
+              border-radius: 10px;
+              
+            }   
+ 
+            
+            
+.textTitle{ font-size:20px;font-weight:bold;}            
+        
+
+.inputBox{float:left;width:100%;}
+
+.footer{
+     margin-top:30px;
+     border-top: 1px solid #F46562 ;
+     float:left;
+     width:100%;
+     border-radius: 0px;
+     bottom:0px;
+    
+}          
+            
+.Brick{
+     float:left;
+     width:25%;
+     padding:30px;
+    
+}   
+
+
+.brickTitle{
+     font-size: 20px;
+}
+
+.brickList{
+     float:left;
+     width:100%; 
+}
+
+.brickList a{
+    color:gray;
+    margin:5px;
+    padding:5px;
+}
+
+.RegionsLanguage{
+    text-align: center; 
+}

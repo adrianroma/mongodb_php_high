@@ -1,0 +1,474 @@
+{
+    "0":{
+        "es:mx:text:node":{
+            "set":"es",
+            "type":"text",
+            "state":"true"
+         
+         
+         },
+        "es:mx:text:site":{
+           "set":"es",
+           "type":"text",
+           "state":"true",
+           "text":"Espanol Mexico",
+           "value":{
+           "check":"Verificar",
+           "default":"Por defecto",
+           "sologan":"Encuentra a tu Antojo",
+           "pay":"Pagar",
+           "user":"Usuario",
+           "userType":"Classificacion",
+           "anyPlace":"Cualquier Lugar",
+           "anyCuisine":"Cualquier Tipo de Cocina",
+           "anyDate":"Cualquier Fecha",
+           "anyPerson":"Cualquier Numero de Personas",
+           "numberPerson":"Numero de Personas",
+           "byPerson":"Por Persona",
+           "sologanSearch":"Que quieres comer",
+           "evalueCook":"evaluacion",
+           "descriptionChef":"Acerca de",
+           "profile":"Perfil",
+           "suggest":"Recomiendacion",
+           "payment":"Pago",
+           "quote":"Cotizacion",
+           "product":"Producto",
+           "item":"Seleccion",
+           "ingredient":"Ingrediente",
+           "nutriologist":"Nutriologo",
+           "gurmet":"Gurment",
+           "time":"Tiempo",
+           "aboutUs":"Acerca de Nosotros",
+           "myBussines":"Mi Negocio",
+           "createEvent":"Crea un Evento",
+           "event":"Evento",
+           "Bussines":"Negocios",
+           "btoB":"BtoB",
+           "classification":"Clasifiacion",
+           "group":"Grupo",
+           "text":"Texto",
+           "nick":"Nick",
+           "Shipping":"Envio",
+           "cost":"Costo",
+           "total":"Total",
+           "subTotal":"Sub total",
+           "tax":"Impuestos",
+           "shippingMethod":"Metodo de Envio",
+           "transport":"Transporte",
+           "numberTracking":"Numero de Rastreo",
+           "track":"Rastrear",
+           "follow":"Seguimiento",
+           "followEvent":"Seguimiento de Evento",
+           "arrive":"Llega en",
+           "minute":"Minutos",
+           "folowUs":"Siguenos en",
+           "site":"Sitio",
+           "store":"Tienda",
+           "byUnity":"Por Unidad",
+           "byWeight":"Por Peso",
+           "weight":"Peso",
+           "litter":"Litro",
+           "gallon":"Gallon",
+           "cuantity":"Cantidad",
+           "quality":"Calidad",
+           "trade":"Marca",
+           "menu":"Menu",
+           "search":"Buscar",
+           "reach":"Alcanzar",
+           "date":"Fecha",
+           "address":"Direccion",
+           "street":"Calle",
+           "number":"Numero",
+           "interior":"Interior",
+           "neighborhood":"Colonia",
+           "city":"Ciudad",
+           "county":"Municipio",
+           "box":"Codigo Postal",
+           "state":"Estado",
+           "country":"Pais",
+           "region":"Region",
+           "language":"Lenguaje",
+           "phone":"telefono",
+           "cellPhone":"celular",
+           "coverage":"Covertura",
+           "service":"Servicio",
+           "supply":"Suministro",
+           "security":"Seguriad",
+           "contractSecure":"Contrato de Seguro",
+           "cook":"Cocinar",
+           "material":"Material",
+           "primaryMaterial":"Materias Primas",
+           "serviceAndsupply":"Servicio y Suministro",
+           "food":"Alimento",
+           "meal":"Comida",
+           "dinner":"Cena",
+           "lunch":"Desayuno",
+           "breakfast":"Refrigerio",
+           "node":"Nodo",
+           "login":"Ingresa",
+           "email":"Mi Email",
+           "password":"Contrasena",
+           "myPassword":"Mi Contrasena",
+           "notValid":"No Valido",
+           "tryOtherTime":"Intentalo mas tarde",
+           "verify":"Verifica",
+           "register":"Registrame Ahora",
+           "registerFacebook":"Registrate Con Facebook",
+           "become":"Conviertete",
+           "becomeInChef":"Conviertete en Chef",
+           "becomeInSupply":"Vende tus Suministros",
+           "becomeInService":"Renta tus Servicios",
+           "becomeInPlace":"Agrega tu Negocio",
+           "contact":"Contacto",
+           "terms":"Terminos y Condiciones",
+           "termsChef":"Terminios y Condiciones para Chef",
+           "termsSupply":"Terminos y Condiciones para Suministros",
+           "termsService":"Terminos y Condiciones para Servicios",
+           "about":"Nosotros",
+           "place":"Lugares",
+           "priceService":"Cuanto me Cuesta Vender mis Servicios",
+           "price":"Precio",
+           "utility":"Beneficio",
+           "image":"Imagen",
+           "upLoad":"Subir Archivo",
+           "upLoadImage":"Subir Imagen",
+           "updateProfile":"Actualizar Perfil",
+           "delete":"Borrar",
+           "cancel":"Cancelar",
+           "save":"Guardar",
+           "update":"Actualizar",
+           "refound":"Devolucion",
+           "currency":"Moneda",
+           "nationality":"Nacionalidad",
+           "school":"Escuela",
+           "university":"Universidad",
+           "study":"Estudios",
+           "knowBy":"Conocido Por",
+           "file":"Archivo",
+           "ok":"Muy Bien",
+           "stepOf":"Paso de",
+           "step":"Paso",
+           "highway":"Carretera",
+           "almost":"Ya Casi",
+           "almostEnd":"Ya casi terminas",
+           "subscription":"Suscripcion",
+           "schedule":"Horario",
+           "day":"dia",
+           "contract":"Contrato",
+           "firm":"Firma",
+           "electronicFirm":"Firma Electronica",
+           "budget":"Presupuesto",
+           "creditCard":"Tarjeta de Credito",
+           "creditCardNumber":"Numero de tarjeta de Credito",
+           "creditCardType":"Tipo de tarjeta de Credito",
+           "validYearCard":"Valida hasta el Ano",
+           "validMontCard":"Valida hasta el Mes",
+           "CardHolderName":"Nombre en Tarjeta de Credito",
+           "accept":"Aceptar",
+           "decline":"Declinar",
+           "amount":"Monto",
+           "calculate":"Calculo",
+           "article":"Articulo",
+           "question":"Pregunta",
+           "answer":"Respuesta",
+           "digitsVerification":"Digitos de Verificacion",
+           "true":"Verdadero",
+           "false":"Faslo",
+           "howToWork":"Como Funciona",
+           "myPassword":"Mi Password",
+           "how":"Como",
+           "chef":"Chef",
+           "cuisine":"Cocina",
+           "dish":"Plato",
+           "estimated":"Estimado",
+           "estimatedDelay":"Tiempo estimado",
+           "order":"Orden",
+           "numberLocations":"Numero de Sucursales",
+           "restaurant":"Restaurante",
+           "restaurantName":"Nombre del Restaurant",
+           "when":"Cuando",
+           "hour":"Hora",
+           "month":"Mes",
+           "year":"Año",
+           "Where":"Donde",
+           "recipe":"Receta",
+           "book":"Reservacion",
+           "edit":"Editar",
+           "viewMore":"Ver Mas",
+           "view":"Ver",
+           "related":"Relacionado",
+           "writeComment":"Escribe un comentario",
+           "window":"Ventana",
+           "grid":"Reja",
+           "slide":"Deslizar",
+           "feedtofood":"Feed to Food",
+           "americanRestaurant":"Restaurant Americano",
+           "americanCuisine":"Cocina Americana",
+           "asianFusionRestaurant":"",
+           "asianFusionCuisine":"Cocina Fusion Asiatica",
+           "brunchSpot":"",
+           "BurgerJoint":"",
+           "cafe":"Cafe",
+           "caribbeanRestaurant":"Cocina Caribena",
+           "chineseRestaurant":"",
+           "chineseCuisine":"Cocina China",
+           "dessertShop":"",
+           "europeanRestaurant":"Restaurant Europeo",
+           "foodTruck":"Carrito de Comida",
+           "frenchRestaurant":"Restaurant Frances",
+           "frenchCuisine":"Cocina Francesa",
+           "germanRestaurant":"Restaurant Aleman",
+           "greekRestaurant":"Restaurant Griego",
+           "greekCuisine":"Cocina Griega",
+           "halalRestaurant":"",
+           "iceCreamShop":"Heladeria",
+           "indianRestaurant":"Restaurant India",
+           "indianCuisine":"Cocina Indu",
+           "italianRestaurant":"Restaurante Italiano",
+           "italianCuisine":"Cocina Italiana",
+           "japaneseRestaurant":"Restaurante Japones",
+           "japaneseCuisine":"Cocina Japonesa",
+           "juiceBar":"Bar de Jugos",
+           "juice":"Jugos",
+           "koreanRestaurant":"Restaurante Korean",
+           "koreanCuisine":"Cocina Koreana",
+           "kosherRestaurant":"Restaurant Kosher",
+           "kosherCuisine":"Cocina Kosher",
+           "Other":"",
+           "latinAmericanRestaurant":"",
+           "mediterraneanRestaurant":"",
+           "mexicanRestaurant":"",
+           "middleEasternRestaurant":"",
+           "pizzaPlace":"",
+           "ramenShop":"",
+           "saladPlace":"",
+           "sandwichPlace":"",
+           "spanishRestaurant":"",
+           "steakHouse":"",
+           "thaiRestaurant":"",
+           "vegetarianVeganRestaurant":"",
+           "vietnameseRestaurant":"",
+           "guides":"Guias",
+           "whereIsMyBussines":"¿En donde esta mi negocio?",
+           "wichServiceOrSupplyFind":"¿Que Suministro o Servicio Gastronomico Busco?",
+           "goToSearch":"Busar ahora . . . ya ! ! ! !",
+           "offertServicesGastronomy":"Ofrecer Servicios Gastronomicos",
+           "next":"Siguiente",
+           "servicesAndSupplyGastronomic":"servicios y suministros gastronomicos",
+           "ready":"Listo",
+           "ownerOfBussines":"Dueno de un Negocio",
+           "gastronomicService":"Servicios Gastronomicos",
+           "gastronomicSupply":"Suministrador Gastronomico",
+           "languagesAndRegions":"Lenguajes y Regiones",
+           "earnAndPrice":"Ganancias y Costos",
+           "forSupplyest":"Para Suministradores",
+           "forService":"Para Servicios",
+           "forFinalUsers":"Para Usuarios Finales",
+           "forTransportist":"Para Transportistas",
+           "offertGastronomicService":"Ofrecer Servicios Gastronomicos",
+           "sellGastronomicProducts":"Vender Productos Gastronomicos",
+           "becameToTransportist":"Conviertete en en Trasnportista",
+           "buyAndRent":"",
+           "becameOpenRestaurant":"Convierte tu espacio en una Concina Profesional",
+           "anyPlace":"En cualquier lugar",
+           "anySupplyOrService":"todos para mi restaurant, bar, cocina",
+           "goSearch":"Siguiente"
+           }  
+         
+           
+            
+        },
+       
+        "image:user:feedtofood":{
+           "set":"user", 
+           "type":"menu",
+           "state":"true",
+           "text":"menu",
+           "value":"user.feedtofood.feed_to_food.jpg",
+           "service":"user.feedtofood.service_feed_to_food.jpg",
+           "supply":"user.feedtofood.supply_feed_to_food.jpg",
+           "chef":"user.feedtofood.chef_feed_to_food.jpg",
+           "bussines":"user.feedtofood.bussines_feed_to_food.jpg",
+           "transport":"user.feedtofood.transport_feed_to_food.jpg",
+           "place":"user.feedtofood.place_feed_to_food.jpg"
+            
+        },
+        
+           "image:user:admin":{
+           "set":"user", 
+           "type":"menu",
+           "state":"true",
+           "text":"menu",
+           "value":"user.feedtofood.feed_to_food.jpg",
+           "404":"user.admin.404_feed_to_food.jpg",
+           "logo":"user.admin.logo_feed_to_tood.jpg"
+            
+        }
+        
+        
+        ,
+        "classification:user":{
+         "text":"classification",
+         "set":"classification",
+         "state":"true",
+         "value":[
+           "supply",
+           "service",
+           "finalUser",
+           "bussines",
+           "transportist",
+           "places"    
+           ]
+        },
+        "list":{
+            "value":"list",
+            "state":"true",
+            "set":"list",
+            "file":["jpg","mp3",".txt"],
+            "text":["site","description","fullText"],
+            "howto":["work","start","refound","earn"],
+            "instruction":["recipe"],
+            "faq":["feedtofood"],
+            "way":["*"],
+            "user":["admin","system","service","supply","transport","bussines","chef","final"],
+            "recipe":["cousine","dish"],
+            "store":["virtual","physical"],
+            "products":["*"],
+            "orders":["*"],
+            "routes":["*"],
+            "regions":["*"],
+            "services":["*"],
+            "articles":["*"],
+            "review":["*"],
+            "demand":["service","product","user","place"],
+            "offert":["service","product","user","place"],
+            "news":["*","today","month","year"],
+            "places":["restaurant","bar","private","salon","hotel","school","bussines","kitchen"],
+            "map":["store","service","supply","transport"],
+            "image":["screen","user","place","store","product","service","grid","icon"],
+            "guide":["service","supply","product","store","transport","buy"]
+
+        },
+        
+        "key:system":{
+           "type":"key",
+           "state":"true",
+           "set":"system",
+           "text":"system key",
+           "search":"axsbelsksls77373",
+           "register":"ksksksiees66",
+           "form":"sererer",
+           "login":"345fsmer"
+        }
+        ,
+        
+       "menu:main":{ 
+           
+           "title":"feed to food",           
+           "type":"menu",
+           "state":"true",
+           "set":"menu",
+           "text":"menu",
+           "value":"",
+              "home":"node:default",
+              "services":"node:services",                    
+              "supply":"node:supply",
+              "search":"node:search"
+           
+       },
+       
+       "menu:access":{
+           "title":"access",           
+           "type":"menu",
+           "state":"true",
+           "text":"access",
+            "value":"",
+            "login":"node:login",
+            "register":"node:register:new",                    
+            "help":"node:howto.help",
+            "tool":"node:howto.tool"
+           
+           
+       }
+       
+       ,
+       
+        "grid:main":{
+              
+               "type":"grid",
+               "state":"true",
+               "set":"grid",
+               "text":"mainServices",
+               "value":["service","supply","chef","bussines"], 
+                   
+               "sevice":{ 
+                              
+                               "image":"image:user:feedtofood.service",
+                               "go":"node:service"
+                               },
+               "supply":{
+                             
+                               "image":"image:user:feedtofood.supply",
+                               "go":"node:supply"
+                             },
+               "chef":{
+                            "image":"image:user:feedtofood.chef",
+                            "go":"node:chef"
+                            },
+               "bussines":{
+                               "image":"image:user:feedtofood.bussines",
+                               "go":"node:bussines"
+                               },
+               "transport":{
+                                "image":"image:user:feedtofood.transport",
+                                "go":"node:transport"
+                                },
+               "place":{
+                             "image":"image:user:feedtofood.place",
+                             "go":"node:place"
+                             }
+                   
+               
+        },
+       
+        "menu:feedtofood":{
+          
+           "type":"menu",
+           "state":"true",
+           "set":"menu",
+           "text":"menu",
+           "value":"",
+            "guides":{                   
+                          "howToService":"node:howto.service",
+                          "howToSupply":"node:howto.supply",
+                          "howToTransport":"node:howto.trasnport",
+                          "howToSellAndBuy":"node:howto.sell"          
+                          
+           },
+           "feedtofood":{
+               
+                         
+                         "we":"node:we",
+                         "howToWorkFeedToFood":"node:howto.feedtofood",
+                         "termsAndConditions":"node:contract.feedtofood",
+                         "frecuencyAnswersQuestions":"node:faq.feedtofood"
+                        
+           },
+           "earn":{
+                        
+                     
+                         "forSupply":"node:earn.supply",
+                         "forServices":"node:earn.service",
+                         "forFinalUsers":"node:earn.user",
+                         "forTransport":"node:earn.transport"
+                     
+           }
+           
+       }
+       
+  
+    }
+   
+}
+
+

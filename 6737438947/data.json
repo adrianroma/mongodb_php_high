@@ -1,0 +1,340 @@
+{
+    "0": {
+        "user": {
+            "entity": "user:system:service",
+            "type": "service",
+            "state": "true",
+            "nick": "Service",
+            "classification": "robot:system:service",
+            "email": "service@feedtofood.com",
+            "password": "cualesmiplato"
+        },
+        "admin": {
+            "entity": "user:admin:feed",
+            "type": "admin",
+            "state": "true",
+            "nick": "Master",
+            "classification": "user:system:admin",
+            "email": "service@feedtofood.com",
+            "password": "feelssogood"
+        },
+        "node:default": {
+            "value": {
+                "HEAD:MAIN": {
+                    "CACHE": {
+                        "IN": {
+                            "address": "get.address",
+                            "service": "get.service",
+                            "goSearch": "get.goSearch",
+                            "name": "get.name",
+                            "lastName": "get.lastName",
+                            "password": "get.password",
+                            "email": "get.email",
+                            "classification": "get.classification",
+                            "search": "get.search",
+                            "suggest": "get.suggest",
+                            "goRegister": "get.goRegister",
+                            "region": "get.region",
+                            "language": "get.language",
+                            "lat": "get.lat",
+                            "long": "get.long"
+                        },
+                        "PROCESS": "SET_CACHE",
+                        "OUT": {
+                            "cache": "FALSE"
+                        }
+                    },
+                    "TEXT": {
+                        "IN": {
+                            "dictionary": "text:site",
+                            "language": "cache.language",
+                            "region": "cache.region"
+                        },
+                        "PROCESS": "TRANSLATE",
+                        "OUT": {
+                            "text": "FALSE"
+                        }
+                    },
+                    "IMAGE": {
+                        "IN": {
+                            "imagesFeedToFood": "image:user:feedtofood"
+                        },
+                        "PROCESS": "IMAGE",
+                        "OUT": {
+                            "imagesFeedToFood": "FALSE"
+                        }
+                    }
+                },
+                "HEADER:DEFAULT": {
+                    "SEARCH": {
+                        "IN": {
+                            "key": "key:system.search"
+                        },
+                        "INPUT": {
+                            "address": "cache.address",
+                            "service": "cache.service",
+                            "goSearch": "cache.goSearch"
+                        },
+                        "PROCESS": "SEARCH",
+                        "OUT": {
+                            "search": "FALSE"
+                        }
+                    },
+                    "SUGGEST": {
+                        "INPUT": {
+                            "address": "cache.address",
+                            "service": "cache.service"
+                        },
+                        "PROCESS": "SUGGEST",
+                        "OUT": {
+                            "suggest": "FALSE"
+                        }
+                    },
+                    "REGISTER": {
+                        "IN": {
+                            "key": "key:system.register"
+                        },
+                        "INPUT": {
+                            "name": "cache.name",
+                            "lastName": "cache.lastName",
+                            "password": "cache.password",
+                            "email": "cache.email",
+                            "classification": "cache.classification",
+                            "goRegister": "cache.goRegister"
+                        },
+                        "PROCESS": "REGISTER",
+                        "OUT": {
+                            "register": "FALSE"
+                        }
+                    },
+                    "OPTION": {
+                        "IN": {
+                            "optionServices": "classification:user"
+                        },
+                        "PROCESS": "GET",
+                        "OUT": {
+                            "optionServices": "FALSE"
+                        }
+                    }
+                },
+                "CONTENT:MAIN": {
+                    "GRID": {
+                        "IN": {
+                            "gridMain": "grid:main"
+                        },
+                        "PROCESS": "GET",
+                        "OUT": {
+                            "gridMain": "FALSE"
+                        }
+                    }
+                },
+                "FOOTER:MAIN": {
+                    "FOOT": {
+                        "IN": {
+                            "menuFeedToFood": "menu:feedtofood"
+                        },
+                        "PROCESS": "GET",
+                        "OUT": {
+                            "menuFeedToFood": "FALSE"
+                        }
+                    }
+                }
+            }
+        },
+        "node:search": {
+            "value": {
+                "HEAD:MAIN": {
+                    "CACHE":
+                            {
+                                "IN": {
+                                    "address": "get.address",
+                                    "service": "get.service",
+                                    "goSearch": "get.goSearch",
+                                    "search": "get.search",
+                                    "suggest": "get.suggest",
+                                    "region": "get.region",
+                                    "language": "get.language",
+                                    "lat": "get.lat",
+                                    "long": "get.long"
+                                },
+                                "PROCESS": "SET_CACHE",
+                                "OUT": {
+                                    "cache": "FALSE"
+                                }
+                            },
+                    "TEXT": {
+                        "IN": {
+                            "dictionary": "text:site",
+                            "language": "cache.language",
+                            "region": "cache.region"
+                        },
+                        "PROCESS": "TRANSLATE",
+                        "OUT": {
+                            "text": "FALSE"
+                        }
+                    },
+                    "IMAGE": {
+                        "IN": {
+                            "imageUser": "image:user",
+                            "classification":"get.classification",
+                            "type":"get.typeImage",
+                            "region":"get.region"
+                        },
+                        "PROCESS": "IMAGE_LIST",
+                        "OUT": {
+                            "imageUser": "FALSE"
+                        }
+                    }
+                },
+                "HEADER:MAIN": {
+                    "SEARCH": {
+                        "IN": {
+                            "key": "key:system.search"
+                        },
+                        "INPUT": {
+                            "address": "cache.address",
+                            "service": "cache.service",
+                            "goSearch": "cache.goSearch"
+                        },
+                        "PROCESS": "SEARCH",
+                        "OUT": {
+                            "search": "FALSE"
+                        }
+                    },
+                    "SUGGEST": {
+                        "INPUT": {
+                            "address": "cache.address",
+                            "service": "cache.service"
+                        },
+                        "PROCESS": "SUGGEST",
+                        "OUT": {
+                            "suggest": "FALSE"
+                        }
+                    }
+                },
+                "CONTENT:MAIN": {
+                    "RESULT": {
+                        "IN": {
+                            "service": "get.service",
+                            "address": "get.address"
+                        },
+                        "PROCESS": "SEARCH",
+                        "OUT": {
+                            "result": "FALSE"
+                        }
+                    }
+                },
+                "FOOTER:MAIN": {
+                    "FOOT": {
+                        "IN": {
+                            "menuFeedToFood": "menu:feedtofood"
+                        },
+                        "PROCESS": "GET",
+                        "OUT": {
+                            "menuFeedToFood": "FALSE"
+                        }
+                    }
+                }
+            }
+        },
+       
+        "node:404": {
+            "value": {
+                "HEAD:MAIN": {
+                    
+                          "CACHE":
+                            {
+                                "IN": {
+                                    "address": "get.address",
+                                    "service": "get.service",
+                                    "goSearch": "get.goSearch",
+                                    "search": "get.search",
+                                    "suggest": "get.suggest",
+                                    "region": "get.region",
+                                    "language": "get.language",
+                                    "lat": "get.lat",
+                                    "long": "get.long"
+                                },
+                                "PROCESS": "SET_CACHE",
+                                "OUT": {
+                                    "cache": "FALSE"
+                                }
+                            },
+           
+                    "TEXT": {
+                        "IN": {
+                            "dictionary": "text:site",
+                            "language": "cache.language",
+                            "region": "cache.region"
+                        },
+                        "PROCESS": "TRANSLATE",
+                        "OUT": {
+                            "text": "FALSE"
+                        }
+                    },
+                    "IMAGE": {
+                        "IN": {
+                            "imageUser": "image:user"
+                        },
+                        "PROCESS": "IMAGE",
+                        "OUT": {
+                            "imageUser": "FALSE"
+                        }
+                    }
+                },
+                "HEADER:MAIN": {
+                    "SEARCH": {
+                        "IN": {
+                            "key": "key:system.search"
+                        },
+                        "INPUT": {
+                            "address": "cache.address",
+                            "service": "cache.service",
+                            "goSearch": "cache.goSearch"
+                        },
+                        "PROCESS": "SEARCH",
+                        "OUT": {
+                            "search": "FALSE"
+                        }
+                    },
+                    "SUGGEST": {
+                        "INPUT": {
+                            "address": "cache.address",
+                            "service": "cache.service"
+                        },
+                        "PROCESS": "SUGGEST",
+                        "OUT": {
+                            "suggest": "FALSE"
+                        }
+                    }
+                },
+                "CONTENT:404": {
+                    "NOTFOUD": {
+                        "IN": {
+                            "imageUnicorn": "image:user:admin"
+                            
+                        },
+                        "PROCESS": "IMAGE",
+                        "OUT": {
+                            "imageUnicorn": "FALSE"
+                        }
+                    }
+                },
+                "FOOTER:MAIN": {
+                    "FOOT": {
+                        "IN": {
+                            "menuFeedToFood": "menu:feedtofood"
+                        },
+                        "PROCESS": "GET",
+                        "OUT": {
+                            "menuFeedToFood": "FALSE"
+                        }
+                    }
+                }
+            }            
+        }
+    
+    }
+}
+
+
