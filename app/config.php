@@ -21,7 +21,7 @@ class app_config {
 
       $this->network = $NETWORK;
        
-      // app_core::HELLO();
+      
     }
     
     public function READ(){
