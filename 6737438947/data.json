@@ -6,8 +6,8 @@
             "state": "true",
             "nick": "Service",
             "classification": "robot:system:service",
-            "email": "service@feedtofood.com",
-            "password": "cualesmiplato"
+            "email": "email@mail.com",
+            "password": "password"
         },
         "admin": {
             "entity": "user:admin:feed",
@@ -15,7 +15,7 @@
             "state": "true",
             "nick": "Master",
             "classification": "user:system:admin",
-            "email": "service@feedtofood.com",
+            "email": "email@email.com",
             "password": "feelssogood"
         },
         "node:default": {
@@ -57,7 +57,7 @@
                     },
                     "IMAGE": {
                         "IN": {
-                            "imagesFeedToFood": "image:user:feedtofood"
+                            "imagesFeedToFood": "image:user:images"
                         },
                         "PROCESS": "IMAGE",
                         "OUT": {
@@ -131,11 +131,11 @@
                 "FOOTER:MAIN": {
                     "FOOT": {
                         "IN": {
-                            "menuFeedToFood": "menu:feedtofood"
+                            "menu:example": "menu:example"
                         },
                         "PROCESS": "GET",
                         "OUT": {
-                            "menuFeedToFood": "FALSE"
+                            "menu:example": "FALSE"
                         }
                     }
                 }
@@ -223,18 +223,8 @@
                             "result": "FALSE"
                         }
                     }
-                },
-                "FOOTER:MAIN": {
-                    "FOOT": {
-                        "IN": {
-                            "menuFeedToFood": "menu:feedtofood"
-                        },
-                        "PROCESS": "GET",
-                        "OUT": {
-                            "menuFeedToFood": "FALSE"
-                        }
-                    }
                 }
+             
             }
         },
        
@@ -319,17 +309,7 @@
                             "imageUnicorn": "FALSE"
                         }
                     }
-                },
-                "FOOTER:MAIN": {
-                    "FOOT": {
-                        "IN": {
-                            "menuFeedToFood": "menu:feedtofood"
-                        },
-                        "PROCESS": "GET",
-                        "OUT": {
-                            "menuFeedToFood": "FALSE"
-                        }
-                    }
+                
                 }
             }            
         }
